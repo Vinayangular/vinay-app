@@ -14,7 +14,7 @@ import { AboutComponent } from './about/about.component';
   declarations: [
     AppComponent,
     HeaderComponent,
-    MensComponent,
+    //MensComponent,
     WomensComponent,
     HomeComponent,
     KidsComponent,
