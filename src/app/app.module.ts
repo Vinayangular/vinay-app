@@ -15,9 +15,9 @@ import { AboutComponent } from './about/about.component';
     AppComponent,
     HeaderComponent,
     //MensComponent,
-    WomensComponent,
+    //WomensComponent,
     HomeComponent,
-    KidsComponent,
+    //KidsComponent,
     AboutComponent
   ],
   imports: [

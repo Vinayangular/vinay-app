@@ -12,9 +12,11 @@ const routes: Routes = [
 {path:"home", component:HomeComponent},
 //{path:"mens", component:MensComponent},
 {path:"mens", loadChildren: ()=> import('./mens/mens.module').then(m => m.MensModule) },
-{path:"womens", component:WomensComponent},
-{path:"kids", component:KidsComponent},
-{path:"about", component:AboutComponent}
+// {path:"womens", component:WomensComponent},
+{path:"womens", loadChildren: ()=> import('./womens/womens.module').then(m => m.WomensModule)},
+//{path:"kids", component:KidsComponent},
+{path:"kids", loadChildren: ()=> import('./kids/kids.module').then(m => m.KidsModule)},
+{ path:"about", component:AboutComponent}
 ];
 
 @NgModule({
